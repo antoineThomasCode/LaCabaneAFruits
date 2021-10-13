@@ -57,15 +57,20 @@ table {
 /* colors */
 body {
   font-family: 'Roboto', sans-serif;
-  position: relative; }
+  position: relative;
+  background-color: #f3f3f3;
+  padding: 0; }
+
+main {
+  padding: 20px 0; }
 
 h1 {
   font-weight: 300;
   font-size: 1.5em; }
 
 h2 {
-  font-size: 1.6em;
-  font-weight: 700;
+  font-size: 1.2em;
+  font-weight: 400;
   padding-bottom: 20px; }
 
 h3 {
@@ -74,7 +79,7 @@ h3 {
   padding-bottom: 5px; }
 
 section {
-  padding: 50px 20px; }
+  padding: 50px 0; }
 
 a {
   text-decoration: none;
@@ -122,7 +127,7 @@ header {
   header a > img {
     height: 100px;
     width: auto; }
-  header #promotion {
+  header #top-info {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -132,9 +137,91 @@ header {
     height: 30px;
     width: 100%;
     background-color: yellow; }
-    header #promotion p {
+    header #top-info p {
       text-align: center; }
 
 main {
-  z-index: 1;
-  padding: 20px; }
+  z-index: 1; }
+
+main {
+  display: flex;
+  flex-direction: column; }
+  main #call-to-action {
+    position: relative;
+    flex-basis: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 0; }
+    main #call-to-action figure {
+      display: flex;
+      flex-basis: 100%;
+      padding: 0;
+      justify-content: center; }
+    main #call-to-action figure > img {
+      width: 100%;
+      height: 400px;
+      object-fit: content; }
+    main #call-to-action figure > div {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      position: absolute;
+      top: 30px;
+      align-self: center;
+      height: 150px;
+      width: 300px;
+      background-color: yellow;
+      opacity: 0.5;
+      border-radius: 20px;
+      padding: 20px; }
+      main #call-to-action figure > div h1 {
+        text-align: center; }
+  main #engagements {
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+    justify-content: space-between; }
+    main #engagements div {
+      display: flex;
+      flex-basis: 100%;
+      min-height: 120px;
+      background-color: yellowgreen;
+      opacity: 0.6;
+      margin-bottom: 20px;
+      justify-content: center;
+      align-items: center;
+      border-radius: 20px; }
+  main #products {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; }
+    main #products h2 {
+      flex-basis: 100%; }
+    main #products div {
+      display: flex;
+      font-size: 0.8em;
+      border: solid 2px yellowgreen;
+      border-radius: 50%;
+      width: 50px;
+      height: 50px;
+      justify-content: center;
+      align-items: center;
+      text-align: center; }
+  main #producteurs {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; }
+    main #producteurs h2 {
+      flex-basis: 100%; }
+    main #producteurs div {
+      display: flex;
+      font-size: 0.5em;
+      border: solid 2px yellowgreen;
+      border-radius: 50%;
+      width: 50px;
+      height: 50px;
+      justify-content: center;
+      align-items: center;
+      text-align: center; }
