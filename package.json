@@ -1,0 +1,24 @@
+{
+  "name": "lacabaneafruits",
+  "version": "1.0.0",
+  "description": "Site de la Cabane à Fruits",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node-sass assets/scss/home.scss assets/css/style.css",
+    "serve": "node-sass assets/scss/home.scss assets/css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/antoineThomasCode/LaCabaneAFruits.git"
+  },
+  "author": "Antoine THOMAS",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/antoineThomasCode/LaCabaneAFruits/issues"
+  },
+  "homepage": "https://github.com/antoineThomasCode/LaCabaneAFruits#readme",
+  "devDependencies": {
+    "node-sass": "^6.0.1"
+  }
+}

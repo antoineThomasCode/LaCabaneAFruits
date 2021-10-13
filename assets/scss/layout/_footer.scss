@@ -1,0 +1,29 @@
+footer {
+    background-color: rgb(48, 48, 48);
+    ul  li {
+        padding: 10px 0;
+        a > i {
+            margin-right: 20px;
+            width: 20px;
+        }
+    }
+    a {
+        color: white;
+    }
+    > div {
+        padding: 20px;
+        color: #fff;
+    }
+    img {
+        height: 20px;
+        padding-bottom: 20px;
+    }
+}
+@media screen and (min-width: 992px) {
+    footer {
+        > div {
+            max-width: 60%;
+            margin: 0 auto;
+            }
+    }
+}

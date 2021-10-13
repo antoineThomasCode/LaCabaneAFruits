@@ -1,0 +1,30 @@
+
+header {
+    z-index: 4;
+    display: flex;
+    justify-content: center;
+    padding: 40px 0 10px 0;
+    a > img {
+        height: 100px;
+        width: auto;
+    }
+    #promotion {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+        top: 0;
+        right: 0; 
+        height: 30px;
+        width: 100%;
+        background-color: yellow;
+        p {
+            text-align: center;
+        }
+    }
+}
+main {
+    z-index: 1;
+    padding: 20px;
+}
+

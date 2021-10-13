@@ -1,0 +1,14 @@
+.btn {
+    text-decoration: none;
+    color: white;
+    padding: 15px 20px;
+    background-image: linear-gradient($secondary, $primary);
+    border-radius: 50px;
+    box-shadow: 2px 6px 19px -7px rgba(0,0,0,0.4);
+    margin: 0 auto;
+    transition: all 0.4s;
+    &:hover {
+        opacity: 0.9;
+        box-shadow: 8px 10px 19px -7px rgba(0,0,0,0.4);
+    }
+}
