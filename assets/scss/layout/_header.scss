@@ -1,11 +1,14 @@
 
 header {
-    z-index: 4;
+    background-color: white;
+    position: fixed;
     display: flex;
     justify-content: center;
     padding: 40px 0 10px 0;
+    width: 100%;
+    z-index: 100;
     a > img {
-        height: 100px;
+        height: 75px;
         width: auto;
     }
     #top-info {
@@ -17,13 +20,21 @@ header {
         right: 0; 
         height: 30px;
         width: 100%;
-        background-color: yellow;
+        background-color: rgba(255, 187, 0, 0.705);
         p {
             text-align: center;
         }
     }
+    #icons-bars-menu {
+        position: absolute;
+        top: 60px;
+        left: 30px;
+        font-size: 30px;
+        opacity: 0.7;
+    }
+    #menu-toggle {
+        display: none;
+    }
 }
-main {
-    z-index: 1;
-}
+
 

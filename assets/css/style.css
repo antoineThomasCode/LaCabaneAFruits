@@ -65,8 +65,10 @@ main {
   padding: 20px 0; }
 
 h1 {
-  font-weight: 300;
-  font-size: 1.5em; }
+  font-weight: 100;
+  font-size: 1.8em;
+  color: white;
+  font-family: 'Dosis', sans-serif; }
 
 h2 {
   font-size: 1.2em;
@@ -120,12 +122,15 @@ footer {
     margin: 0 auto; } }
 
 header {
-  z-index: 4;
+  background-color: white;
+  position: fixed;
   display: flex;
   justify-content: center;
-  padding: 40px 0 10px 0; }
+  padding: 40px 0 10px 0;
+  width: 100%;
+  z-index: 100; }
   header a > img {
-    height: 100px;
+    height: 75px;
     width: auto; }
   header #top-info {
     display: flex;
@@ -136,14 +141,20 @@ header {
     right: 0;
     height: 30px;
     width: 100%;
-    background-color: yellow; }
+    background-color: rgba(255, 187, 0, 0.705); }
     header #top-info p {
       text-align: center; }
+  header #icons-bars-menu {
+    position: absolute;
+    top: 60px;
+    left: 30px;
+    font-size: 30px;
+    opacity: 0.7; }
+  header #menu-toggle {
+    display: none; }
 
 main {
-  z-index: 1; }
-
-main {
+  padding-top: 120px;
   display: flex;
   flex-direction: column; }
   main #call-to-action {
@@ -156,26 +167,40 @@ main {
       display: flex;
       flex-basis: 100%;
       padding: 0;
-      justify-content: center; }
+      justify-content: center;
+      align-items: center; }
     main #call-to-action figure > img {
       width: 100%;
       height: 400px;
-      object-fit: content; }
+      object-fit: content;
+      z-index: 1; }
     main #call-to-action figure > div {
       display: flex;
+      z-index: 3;
       flex-direction: column;
       justify-content: center;
       position: absolute;
-      top: 30px;
-      align-self: center;
-      height: 150px;
+      top: 80px;
+      height: 200px;
       width: 300px;
-      background-color: yellow;
-      opacity: 0.5;
+      background-color: rgba(255, 208, 0, 0.493);
+      opacity: 0.9;
       border-radius: 20px;
-      padding: 20px; }
+      padding: 20px;
+      border: solid 3px rgba(55, 97, 8, 0.452); }
       main #call-to-action figure > div h1 {
-        text-align: center; }
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif; }
+      main #call-to-action figure > div button {
+        width: 200px;
+        background-color: rgba(55, 97, 8, 0.452);
+        align-self: center;
+        padding: 10px 20px;
+        margin-top: 30px;
+        color: white;
+        font-weight: 600;
+        border: solid 3px white;
+        border-radius: 50px; }
   main #engagements {
     display: flex;
     padding: 20px;
