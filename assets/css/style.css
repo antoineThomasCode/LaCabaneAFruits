@@ -244,8 +244,8 @@ main {
       main #products article figure {
         flex-basis: 100%; }
       main #products article img {
-        width: 75%;
-        height: 170px;
+        width: 100%;
+        height: 180px;
         border-top-left-radius: 20px;
         border-bottom-left-radius: 20px;
         object-fit: cover; }
