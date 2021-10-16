@@ -4,7 +4,7 @@
 */
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Shrikhand&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap");
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -65,15 +65,18 @@ main {
   padding: 20px 0; }
 
 h1 {
-  font-weight: 100;
-  font-size: 1.8em;
-  color: white;
-  font-family: 'Dosis', sans-serif; }
+  font-weight: 500;
+  font-size: 2.5em;
+  color: #db6a0d;
+  font-family: 'Dancing Script', cursive;
+  text-align: center; }
 
 h2 {
-  font-size: 1.2em;
-  font-weight: 400;
-  padding-bottom: 20px; }
+  font-size: 1.9em;
+  font-weight: 900;
+  padding-bottom: 20px;
+  color: #424141;
+  font-family: 'Dancing Script', cursive; }
 
 h3 {
   font-size: 1.1em;
@@ -86,19 +89,6 @@ section {
 a {
   text-decoration: none;
   color: black; }
-
-.btn {
-  text-decoration: none;
-  color: white;
-  padding: 15px 20px;
-  background-image: linear-gradient(white, white);
-  border-radius: 50px;
-  box-shadow: 2px 6px 19px -7px rgba(0, 0, 0, 0.4);
-  margin: 0 auto;
-  transition: all 0.4s; }
-  .btn:hover {
-    opacity: 0.9;
-    box-shadow: 8px 10px 19px -7px rgba(0, 0, 0, 0.4); }
 
 footer {
   background-color: #303030; }
@@ -128,9 +118,10 @@ header {
   justify-content: center;
   padding: 40px 0 10px 0;
   width: 100%;
-  z-index: 100; }
+  z-index: 100;
+  border-bottom: solid 7px rgba(214, 159, 7, 0.747); }
   header a > img {
-    height: 75px;
+    height: 120px;
     width: auto; }
   header #top-info {
     display: flex;
@@ -141,12 +132,13 @@ header {
     right: 0;
     height: 30px;
     width: 100%;
-    background-color: rgba(255, 187, 0, 0.705); }
+    color: white;
+    background-color: rgba(238, 204, 10, 0.795); }
     header #top-info p {
       text-align: center; }
   header #icons-bars-menu {
     position: absolute;
-    top: 60px;
+    top: 85px;
     left: 30px;
     font-size: 30px;
     opacity: 0.7; }
@@ -173,34 +165,34 @@ main {
       width: 100%;
       height: 400px;
       object-fit: content;
-      z-index: 1; }
+      z-index: 1;
+      border-bottom: solid 7px rgba(214, 159, 7, 0.747); }
     main #call-to-action figure > div {
       display: flex;
       z-index: 3;
       flex-direction: column;
       justify-content: center;
       position: absolute;
-      top: 80px;
+      top: 100px;
       height: 200px;
       width: 300px;
-      background-color: rgba(255, 208, 0, 0.493);
+      background-color: rgba(250, 250, 246, 0.856);
       opacity: 0.9;
       border-radius: 20px;
       padding: 20px;
-      border: solid 3px rgba(55, 97, 8, 0.452); }
-      main #call-to-action figure > div h1 {
-        text-align: center;
-        font-family: Arial, Helvetica, sans-serif; }
-      main #call-to-action figure > div button {
-        width: 200px;
-        background-color: rgba(55, 97, 8, 0.452);
-        align-self: center;
-        padding: 10px 20px;
-        margin-top: 30px;
+      border: solid 7px rgba(214, 159, 7, 0.747); }
+      main #call-to-action figure > div a {
         color: white;
-        font-weight: 600;
-        border: solid 3px white;
-        border-radius: 50px; }
+        font-weight: 500;
+        padding: 15px 20px;
+        background-image: linear-gradient(rgba(230, 202, 45, 0.473), #db6a0d);
+        border-radius: 50px;
+        box-shadow: 2px 6px 19px -7px rgba(0, 0, 0, 0.4);
+        margin: 30px auto;
+        transition: all 0.4s; }
+        main #call-to-action figure > div a:hover {
+          opacity: 0.7;
+          box-shadow: 8px 10px 19px -7px rgba(0, 0, 0, 0.4); }
   main #engagements {
     display: flex;
     padding: 20px;
