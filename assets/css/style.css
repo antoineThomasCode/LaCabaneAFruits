@@ -164,6 +164,7 @@ main {
       align-items: center; }
     main #call-to-action figure > video {
       width: 100%;
+      max-width: 100%;
       height: 400px;
       object-fit: cover;
       z-index: 1;
