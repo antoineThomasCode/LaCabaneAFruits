@@ -6,6 +6,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Shrikhand&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Rampart+One&family=Urbanist:ital,wght@1,100;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Rampart+One&family=Urbanist:ital,wght@1,100;1,900&display=swap");
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -66,19 +67,15 @@ main {
   padding: 20px 0; }
 
 h1 {
-  font-weight: 900;
-  font-size: 1.6em;
-  color: white;
-  font-family: 'Urbanist', sans-serif;
+  margin-top: -70px;
+  font-weight: 500;
+  width: 100%;
+  font-size: 1.9em;
+  color: black;
+  font-family: 'Playfair Display', serif;
   border-radius: 20px;
   padding: 10px 20px;
-  text-shadow: 1px 0px 8px rgba(0, 0, 0, 0.93); }
-
-#flag-blue {
-  color: #0c0cee; }
-
-#flag-red {
-  color: red; }
+  letter-spacing: -2; }
 
 h2 {
   font-size: 1.9em;
@@ -124,13 +121,13 @@ header {
   background-color: white;
   position: fixed;
   display: flex;
-  justify-content: center;
+  flex-wrap: wrap;
+  justify-content: flex-end;
   padding: 40px 0 10px 0;
   width: 100%;
-  z-index: 100;
-  border-bottom: solid 3px rgba(0, 0, 0, 0.747); }
+  z-index: 100; }
   header a > img {
-    height: 145px;
+    height: 160px;
     width: auto; }
   header #top-info {
     display: flex;
@@ -162,7 +159,8 @@ main {
   padding-top: 140px;
   display: flex;
   flex-direction: column;
-  background-color: white; }
+  background-color: white;
+  border-top-left-radius: 30px; }
   main #call-to-action {
     position: relative;
     flex-basis: 100%;
@@ -175,41 +173,51 @@ main {
       padding: 0;
       justify-content: center;
       align-items: center; }
+    main #call-to-action #ruban {
+      z-index: 4;
+      position: relative;
+      bottom: 637px;
+      left: 40px;
+      width: 5px;
+      object-fit: cover;
+      object-position: center;
+      rotate: 90deg; }
     main #call-to-action figure > img {
       width: 100%;
       max-width: 100%;
-      height: 350px;
+      height: 500px;
       object-fit: cover;
-      z-index: 1;
-      border-bottom: solid 3px rgba(5, 5, 5, 0.747); }
+      z-index: 1; }
     main #call-to-action figure > div {
       display: flex;
       z-index: 3;
       flex-direction: column;
       justify-content: center;
       position: absolute;
-      top: 100px;
+      top: 10px;
       height: 140px;
       width: 200px;
-      background-color: rgba(250, 250, 246, 0.9);
+      background-color: rgba(250, 250, 246, 0);
       opacity: 0.9;
       border-radius: 3px;
       padding: 20px;
-      border: solid 3px rgba(5, 5, 5, 0.747); }
+      border: solid 0px rgba(5, 5, 5, 0.747); }
       main #call-to-action figure > div a {
-        color: black;
+        margin-top: 80px;
+        color: white;
         border: 2px solid black;
-        font-weight: 500;
+        font-weight: 700;
         padding: 9px 2px;
         text-align: center;
-        box-shadow: 1px 0px 8px rgba(0, 0, 0, 0.93);
+        box-shadow: 1px 0px 8px rgba(255, 255, 255, 0.93);
         border-radius: 4px;
         box-shadow: 2px 6px 19px -7px rgba(0, 0, 0, 0.4);
         transition: all 1.4s;
-        opacity: 0.7; }
+        background-color: black;
+        background-size: 60%; }
         main #call-to-action figure > div a:hover {
           color: white;
-          background-color: black;
+          background-color: rgba(153, 149, 129, 0.822);
           opacity: 0.8;
           box-shadow: 8px 10px 19px -7px rgba(0, 0, 0, 0.4); }
   main #engagements {

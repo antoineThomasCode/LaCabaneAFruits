@@ -9,20 +9,18 @@ main {
     
 }
 h1 {
-    font-weight: 900;
-    font-size: 1.6em;
-    color: white;
-    font-family: 'Urbanist', sans-serif;
+    margin-top: -70px;
+    font-weight: 500;
+    width: 100%;
+    font-size: 1.9em;
+    color: black;
+    font-family: 'Playfair Display', serif;
     border-radius: 20px;
     padding: 10px 20px;
-    text-shadow: 1px 0px 8px rgba(0,0,0,0.93);
+    //text-shadow: 1px 0px 8px rgba(0,0,0,0.93);
+    letter-spacing: -2;
 }
-#flag-blue {
-    color: rgb(12, 12, 238);
-}
-#flag-red {
-    color: red;
-}
+
 h2 {
     font-size: 1.9em;
     font-weight: 900;
