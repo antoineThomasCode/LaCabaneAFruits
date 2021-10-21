@@ -124,8 +124,9 @@ header {
   padding: 40px 0 10px 0;
   width: 100%;
   z-index: 100;
-  border-radius: 70px;
-  box-shadow: 1px 30px 30px -7px rgba(247, 246, 245, 0.7); }
+  border-bottom-right-radius: 70px;
+  border-bottom-left-radius: 70px;
+  box-shadow: 1px 30px 30px -7px rgba(95, 93, 93, 0.7); }
   header a > img {
     height: 160px;
     width: auto; }
@@ -217,6 +218,7 @@ main {
           background-color: #999581;
           box-shadow: 8px 10px 19px -7px rgba(0, 0, 0, 0.4); }
   main #engagements {
+    box-shadow: 0px -50px 70px -10px rgba(95, 93, 93, 0.5);
     display: flex;
     margin-top: -150px;
     padding: 20px;
