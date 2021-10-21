@@ -6,13 +6,22 @@ body {
 }
 main {
     padding: 20px 0;
+    
 }
 h1 {
-    font-weight: 700;
-    font-size: 2.5em;
-    color: rgb(255, 255, 254);
-    font-family: 'Dancing Script', cursive;
-    text-align: center;
+    font-weight: 900;
+    font-size: 1.6em;
+    color: white;
+    font-family: 'Urbanist', sans-serif;
+    border-radius: 20px;
+    padding: 10px 20px;
+    text-shadow: 1px 0px 8px rgba(0,0,0,0.93);
+}
+#flag-blue {
+    color: rgb(12, 12, 238);
+}
+#flag-red {
+    color: red;
 }
 h2 {
     font-size: 1.9em;
