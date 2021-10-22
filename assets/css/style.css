@@ -131,7 +131,8 @@ header {
   box-shadow: 1px 30px 30px -7px rgba(95, 93, 93, 0.322);
   border-bottom: solid 5px rgba(0, 0, 0, 0.733); }
   header a > img {
-    height: 160px;
+    padding-top: 20px;
+    height: 190px;
     width: auto; }
   header #top-info {
     display: flex;
@@ -181,12 +182,12 @@ main {
       padding: 0;
       justify-content: center;
       align-items: center; }
-    main #call-to-action figure > video {
+    main #call-to-action figure > img {
       opacity: 1;
-      margin-top: 100px;
+      margin-top: 150px;
       width: 100%;
       max-width: 100%;
-      height: 500px;
+      height: 550px;
       object-fit: cover;
       object-position: center;
       z-index: 1; }
@@ -225,15 +226,17 @@ main {
         main #call-to-action figure > div a:hover {
           font-size: 50px;
           color: white;
-          background-color: #999581;
+          background-color: #68665c;
           background-size: 300%;
           box-shadow: 8px 10px 19px -7px rgba(0, 0, 0, 0.164); }
   main #engagements {
-    box-shadow: 8px 10px 19px -7px rgba(0, 0, 0, 0.562);
+    -webkit-box-shadow: 0px 0px 58px 34px #4a4b5a;
+    -moz-box-shadow: 0px 0px 58px 34px #4a4b5a;
+    box-shadow: 0px 0px 58px 34px rgba(204, 204, 211, 0.589);
     border-top: solid 3px black;
     border-bottom: solid 2px rgba(95, 94, 94, 0.719);
     display: flex;
-    margin-top: -120px;
+    margin-top: -145px;
     padding: 10px;
     flex-direction: column;
     justify-content: space-between;
