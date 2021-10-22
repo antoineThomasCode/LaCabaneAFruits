@@ -141,12 +141,17 @@ header {
     width: 100%;
     color: white;
     font-weight: 900;
+    box-shadow: 1px 30px 30px -7px rgba(95, 93, 93, 0.322);
     text-shadow: 1px 0px 8px rgba(0, 0, 0, 0.93);
-    background-image: url("https://previews.123rf.com/images/feverpitched/feverpitched0808/feverpitched080800141/3475197-rouge-et-blanc-quadrill%C3%A9-couverture-pique-nique-d%C3%A9tail.jpg");
-    background-size: 50%;
-    opacity: 0.7; }
+    background-image: url("https://us.123rf.com/450wm/natthanim/natthanim1801/natthanim180100029/92712257-texture-d-ardoise-noire-gris-fonc%C3%A9-en-motif-naturel-avec-une-haute-r%C3%A9solution-pour-le-fond-et-le-tra.jpg?ver=6");
+    opacity: 0.95; }
     header #top-info p {
-      text-align: center; }
+      text-align: center;
+      font-family: 'Dancing Script', cursive;
+      color: white;
+      padding: 15px;
+      text-align: center;
+      text-shadow: 10px 0px 12px #f8f4f3; }
   header #icons-bars-menu {
     position: absolute;
     top: 85px;
@@ -157,7 +162,7 @@ header {
     display: none; }
 
 main {
-  padding-top: 0px;
+  padding-top: 120px;
   display: flex;
   flex-direction: column;
   background-color: white;
@@ -174,11 +179,11 @@ main {
       padding: 0;
       justify-content: center;
       align-items: center; }
-    main #call-to-action figure > img {
-      margin-top: 200px;
+    main #call-to-action figure > video {
+      margin-top: 100px;
       width: 100%;
       max-width: 100%;
-      height: 600px;
+      height: 500px;
       object-fit: cover;
       object-position: center;
       z-index: 1; }
@@ -197,12 +202,13 @@ main {
       padding: 20px;
       border: solid 0px rgba(5, 5, 5, 0.747); }
       main #call-to-action figure > div a {
+        opacity: 0.8;
         display: flex;
         font-size: 40px;
         position: relative;
-        top: 285px;
+        top: 205px;
         color: white;
-        border: 5px solid white;
+        border: 5px solid rgba(255, 255, 255, 0.863);
         font-weight: 700;
         height: 100px;
         width: 100px;
@@ -212,8 +218,7 @@ main {
         justify-content: center;
         box-shadow: 1px 30px 40px -7px rgba(95, 83, 42, 0.39);
         transition: background-size 0.4s;
-        background-image: url("https://previews.123rf.com/images/feverpitched/feverpitched0808/feverpitched080800141/3475197-rouge-et-blanc-quadrill%C3%A9-couverture-pique-nique-d%C3%A9tail.jpg");
-        background-size: 200%; }
+        background-image: url("https://us.123rf.com/450wm/natthanim/natthanim1801/natthanim180100029/92712257-texture-d-ardoise-noire-gris-fonc%C3%A9-en-motif-naturel-avec-une-haute-r%C3%A9solution-pour-le-fond-et-le-tra.jpg?ver=6"); }
         main #call-to-action figure > div a:hover {
           font-size: 50px;
           color: white;
@@ -289,11 +294,11 @@ main {
       opacity: 0.8;
       padding: 10px;
       display: flex;
-      flex-direction: row;
+      flex-direction: column;
       box-shadow: 8px 10px 19px -7px rgba(0, 0, 0, 0.4);
       border-radius: 20px;
       height: 240px;
-      background-image: url("https://previews.123rf.com/images/feverpitched/feverpitched0808/feverpitched080800141/3475197-rouge-et-blanc-quadrill%C3%A9-couverture-pique-nique-d%C3%A9tail.jpg");
+      background-image: url("https://us.123rf.com/450wm/natthanim/natthanim1801/natthanim180100029/92712257-texture-d-ardoise-noire-gris-fonc%C3%A9-en-motif-naturel-avec-une-haute-r%C3%A9solution-pour-le-fond-et-le-tra.jpg?ver=6");
       background-position: bottom;
       background-size: 50%; }
       main #products article figure {
@@ -306,8 +311,13 @@ main {
         object-fit: cover;
         object-position: bottom; }
       main #products article h3 {
+        opacity: 0.9;
+        font-size: 1.9em;
+        font-family: 'Dancing Script', cursive;
+        color: white;
         padding: 15px;
-        width: 20%; }
+        text-align: center;
+        text-shadow: 10px 0px 12px #f8f4f3; }
     main #products h2 {
       flex-basis: 100%; }
     main #products div {
