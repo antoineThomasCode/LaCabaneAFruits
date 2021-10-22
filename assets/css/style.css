@@ -73,7 +73,7 @@ h1 {
   font-size: 1.9em;
   color: black;
   font-family: 'Playfair Display', serif;
-  padding: 10px 30px 50px 20px; }
+  padding: 35px 30px 30px 20px; }
 
 h2 {
   font-size: 1.4em;
@@ -121,12 +121,12 @@ header {
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-end;
-  padding: 40px 0 10px 0;
+  padding-top: 10px;
   width: 100%;
   z-index: 100;
   border-bottom-right-radius: 100px;
   box-shadow: 1px 30px 30px -7px rgba(95, 93, 93, 0.322);
-  border-bottom: solid 8px rgba(7, 22, 238, 0.733); }
+  border-bottom: solid 5px rgba(7, 22, 238, 0.733); }
   header a > img {
     height: 160px;
     width: auto; }
@@ -162,7 +162,7 @@ header {
     display: none; }
 
 main {
-  padding-top: 120px;
+  padding-top: 80px;
   display: flex;
   flex-direction: column;
   background-color: white; }
@@ -227,7 +227,7 @@ main {
           box-shadow: 8px 10px 19px -7px rgba(0, 0, 0, 0.164); }
   main #engagements {
     box-shadow: 8px 10px 19px -7px rgba(0, 0, 0, 0.562);
-    border-top: solid 8px rgba(167, 6, 6, 0.795);
+    border-top: solid 3px rgba(167, 6, 6, 0.795);
     border-bottom: solid 2px rgba(95, 94, 94, 0.719);
     display: flex;
     margin-top: -120px;
