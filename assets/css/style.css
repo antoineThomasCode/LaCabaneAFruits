@@ -129,7 +129,7 @@ header {
   z-index: 100;
   border-bottom-right-radius: 100px;
   box-shadow: 1px 30px 30px -7px rgba(95, 93, 93, 0.322);
-  border-bottom: solid 5px rgba(7, 22, 238, 0.733); }
+  border-bottom: solid 5px rgba(0, 0, 0, 0.733); }
   header a > img {
     height: 160px;
     width: auto; }
@@ -230,7 +230,7 @@ main {
           box-shadow: 8px 10px 19px -7px rgba(0, 0, 0, 0.164); }
   main #engagements {
     box-shadow: 8px 10px 19px -7px rgba(0, 0, 0, 0.562);
-    border-top: solid 3px rgba(167, 6, 6, 0.795);
+    border-top: solid 3px black;
     border-bottom: solid 2px rgba(95, 94, 94, 0.719);
     display: flex;
     margin-top: -120px;
