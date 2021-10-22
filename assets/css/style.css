@@ -258,8 +258,7 @@ main {
       flex-direction: column;
       box-shadow: 8px 10px 19px -7px rgba(0, 0, 0, 0.685);
       border-radius: 20px;
-      padding: 5px;
-      opacity: 0.9; }
+      padding: 5px; }
       main #engagements article figure {
         flex-basis: 90%; }
       main #engagements article img {
