@@ -56,6 +56,9 @@ table {
 .f-wrap {
   flex-wrap: wrap; }
 
+.obj-top {
+  object-position: top !important; }
+
 /* colors */
 body {
   font-family: 'Roboto', sans-serif;
@@ -76,7 +79,7 @@ h1 {
   padding: 35px 30px 30px 20px; }
 
 h2 {
-  font-size: 1.4em;
+  font-size: 1.9em;
   font-weight: 600;
   padding-bottom: 20px;
   color: #0f0f0f;
