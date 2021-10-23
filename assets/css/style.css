@@ -79,13 +79,14 @@ h1 {
   padding: 30px 30px 30px 20px; }
 
 h2 {
-  font-size: 1.9em;
-  font-weight: 600;
+  font-size: 1.6em;
+  font-weight: 500;
   padding-bottom: 20px;
   color: #0f0f0f;
   font-family: 'Playfair Display', serif;
   text-shadow: 4px 10px 4px rgba(15, 15, 15, 0.075);
-  padding-left: 4px; }
+  padding-left: 4px;
+  opacity: 0.8; }
 
 h3 {
   font-size: 0.8em;
@@ -239,7 +240,6 @@ main {
     justify-content: space-between;
     row-gap: 20px;
     z-index: 4;
-    padding-top: 45px;
     padding-bottom: 40px;
     background-color: white;
     background-position: 0%; }
@@ -260,10 +260,10 @@ main {
         object-fit: cover; }
       main #engagements article h3 {
         opacity: 0.9;
-        font-size: 1.2em;
+        font-size: 1.1em;
         font-family: 'Dancing Script', cursive;
         color: black;
-        padding: 15px;
+        padding: 10px;
         text-align: center;
         text-shadow: 10px 0px 12px #f8f4f3; }
     main #engagements div {
