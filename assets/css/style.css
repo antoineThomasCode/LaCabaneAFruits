@@ -79,12 +79,14 @@ h1 {
   padding: 30px 30px 15px 20px; }
 
 h2 {
-  font-size: 1.4em;
+  text-shadow: 1px 16px 20px rgba(0, 0, 0, 0.514);
+  font-size: 1.6em;
+  letter-spacing: -1.6px;
   font-weight: 300;
   padding-bottom: 10px;
   color: #0f0f0f;
   font-family: 'Roboto';
-  text-shadow: 4px 10px 4px rgba(15, 15, 15, 0.075);
+  text-shadow: 1px 30px 30px -7px rgba(95, 93, 93, 0.767);
   padding-left: 4px;
   opacity: 0.8;
   padding-top: 15px; }
@@ -246,6 +248,14 @@ main {
     padding-bottom: 40px;
     background-color: white;
     background-position: 0%; }
+    main #engagements h2 {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center; }
+      main #engagements h2 i {
+        margin-right: 25px;
+        color: green;
+        font-size: 30px; }
     main #engagements article {
       position: relative;
       background-color: #fff;
@@ -256,15 +266,15 @@ main {
       padding: 5px; }
       main #engagements article p {
         font-size: 1em;
-        font-weight: 400;
+        font-weight: 500;
         color: black;
         display: flex;
         position: absolute;
         background-color: #f8eb75;
         padding: 10px;
         z-index: 3;
-        top: -15px;
-        left: 150px;
+        top: 70px;
+        left: -15px;
         border-radius: 50%;
         height: 10px;
         width: 10px;
@@ -280,10 +290,11 @@ main {
         object-fit: cover; }
       main #engagements article h3 {
         opacity: 0.9;
-        font-weight: 300;
-        font-size: 0.7em;
+        font-weight: 400;
+        font-size: 0.9em;
+        letter-spacing: -0.5px;
         font-family: "Roboto";
-        color: black;
+        color: rgba(0, 0, 0, 0.671);
         padding: 10px;
         text-align: center;
         text-shadow: 10px 0px 12px #f8f4f3; }
@@ -304,6 +315,18 @@ main {
     flex-direction: column;
     justify-content: space-between;
     row-gap: 20px; }
+    main #products h2 {
+      display: flex;
+      flex-direction: column;
+      row-gap: 20px;
+      justify-content: center;
+      align-items: center;
+      padding-bottom: 20px; }
+      main #products h2 i {
+        margin-right: 25px;
+        color: #dd8809;
+        font-size: 50px;
+        text-shadow: none; }
     main #products article {
       background-color: white;
       opacity: 0.8;
@@ -351,8 +374,14 @@ main {
     flex-wrap: wrap;
     justify-content: space-around; }
     main #producteurs h2 {
-      flex-basis: 100%;
-      padding-bottom: 50px; }
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      padding-bottom: 100px; }
+      main #producteurs h2 i {
+        margin-right: 25px;
+        color: red;
+        font-size: 30px; }
     main #producteurs div {
       display: flex;
       column-gap: 20px;

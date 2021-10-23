@@ -87,6 +87,16 @@ main {
         padding-bottom: 40px;
         background-color: white;
         background-position: 0%;
+        h2 {
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            i {
+                margin-right: 25px;
+                color: green;
+                font-size: 30px;
+            }
+        }
         article {
             position: relative;
             background-color: #fff;
@@ -98,15 +108,15 @@ main {
             padding: 5px;
             p { 
                 font-size: 1em;
-                font-weight: 400;
+                font-weight: 500;
                 color: black;
                 display: flex;
                 position: absolute;
                 background-color: rgb(248, 235, 117);
                 padding: 10px;
                 z-index: 3;
-                top: -15px;
-                left: 150px;
+                top: 70px;
+                left: -15px;
                 border-radius: 50%;
                 height: 10px;
                 width: 10px;
@@ -118,7 +128,7 @@ main {
 
             }
             img {
-                width: 100%;
+                width: 100%; 
                 height: 80px;
                 border-top-right-radius: 20px;
                 border-top-left-radius: 20px;
@@ -126,11 +136,12 @@ main {
             }
             h3 {
                 opacity: 0.9;
-                font-weight: 300;
-                font-size: 0.7em;
+                font-weight: 400;
+                font-size: 0.9em;
+                letter-spacing: -0.5px;
                 //font-family: 'Dancing Script', cursive;
                 font-family: "Roboto";
-                color: black;
+                color: rgba(0, 0, 0, 0.671);
                 padding: 10px;
                 text-align: center;
                 text-shadow: 10px 0px 12px rgb(248, 244, 243);
@@ -157,6 +168,21 @@ main {
         flex-direction: column;
         justify-content: space-between;
         row-gap: 20px;
+        h2 {
+            display: flex;
+            flex-direction: column;
+            row-gap: 20px;
+            justify-content: center;
+            align-items: center;
+            padding-bottom: 20px;
+            i {
+                margin-right: 25px;
+                color: rgb(221, 136, 9);
+                font-size: 50px;
+                text-shadow: none;
+                
+            }
+        }
         article {
             background-color: white;
             opacity: 0.8;
@@ -214,8 +240,15 @@ main {
         justify-content: space-around;
 
         h2 {
-            flex-basis: 100%;
-            padding-bottom: 50px;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            padding-bottom: 100px;
+            i {
+                margin-right: 25px;
+                color: red;
+                font-size: 30px;
+            }
         }
         div {
 
