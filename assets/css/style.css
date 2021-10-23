@@ -79,14 +79,15 @@ h1 {
   padding: 30px 30px 30px 20px; }
 
 h2 {
-  font-size: 1.6em;
-  font-weight: 500;
-  padding-bottom: 20px;
+  font-size: 1.4em;
+  font-weight: 300;
+  padding-bottom: 10px;
   color: #0f0f0f;
-  font-family: 'Playfair Display', serif;
+  font-family: 'Roboto';
   text-shadow: 4px 10px 4px rgba(15, 15, 15, 0.075);
   padding-left: 4px;
-  opacity: 0.8; }
+  opacity: 0.8;
+  padding-top: 15px; }
 
 h3 {
   font-size: 0.8em;
@@ -215,7 +216,7 @@ main {
         position: relative;
         top: 240px;
         left: 60px;
-        color: white;
+        color: #e67e1d;
         border: 5px solid rgba(255, 255, 255, 0.863);
         font-weight: 700;
         height: 70px;
@@ -225,14 +226,13 @@ main {
         align-self: flex-end;
         justify-content: center;
         z-index: 1;
+        background-color: whitesmoke;
         box-shadow: 1px 30px 40px -7px rgba(95, 83, 42, 0.39);
-        transition: background-size 0.4s;
-        background-image: url("https://us.123rf.com/450wm/natthanim/natthanim1801/natthanim180100029/92712257-texture-d-ardoise-noire-gris-fonc%C3%A9-en-motif-naturel-avec-une-haute-r%C3%A9solution-pour-le-fond-et-le-tra.jpg?ver=6"); }
+        transition: background-size 0.4s; }
         main #call-to-action figure > div a:hover {
-          opacity: 0.6;
           font-size: 30px;
           color: white;
-          background-color: #68665c;
+          background-color: #e67e1d;
           background-size: 300%;
           box-shadow: 8px 10px 19px -7px rgba(0, 0, 0, 0.164); }
   main #engagements {
@@ -263,8 +263,9 @@ main {
         object-fit: cover; }
       main #engagements article h3 {
         opacity: 0.9;
-        font-size: 1.1em;
-        font-family: 'Dancing Script', cursive;
+        font-weight: 300;
+        font-size: 0.7em;
+        font-family: "Roboto";
         color: black;
         padding: 10px;
         text-align: center;
@@ -308,11 +309,12 @@ main {
         object-position: bottom; }
       main #products article h3 {
         opacity: 0.9;
-        font-size: 1.6em;
-        font-family: 'Dancing Script', cursive;
+        font-weight: 300;
+        font-size: 1em;
+        font-family: "roboto";
         color: black;
         padding: 15px;
-        text-align: center;
+        text-align: start;
         text-shadow: 10px 0px 12px #f8f4f3; }
     main #products h2 {
       flex-basis: 100%; }

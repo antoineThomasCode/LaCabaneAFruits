@@ -52,7 +52,7 @@ main {
                 position: relative;
                 top: 240px;
                 left: 60px;
-                color: white;
+                color: rgb(230, 126, 29);
                 border: 5px solid rgba(255, 255, 255, 0.863);
                 font-weight: 700;
                 height: 70px;
@@ -62,10 +62,11 @@ main {
                 align-self: flex-end;
                 justify-content: center;
                 z-index: 1;
+                background-color: whitesmoke;
                 //background-image: linear-gradient(rgba(250, 250, 250, 0.473), rgb(13, 27, 219));
                 box-shadow: 1px 30px 40px -7px rgba(95, 83, 42, 0.39);
                 transition: background-size 0.4s;
-                background-image: url("https://us.123rf.com/450wm/natthanim/natthanim1801/natthanim180100029/92712257-texture-d-ardoise-noire-gris-fonc%C3%A9-en-motif-naturel-avec-une-haute-r%C3%A9solution-pour-le-fond-et-le-tra.jpg?ver=6");
+                
                 //background-image: url("https://previews.123rf.com/images/feverpitched/feverpitched0808/feverpitched080800141/3475197-rouge-et-blanc-quadrill%C3%A9-couverture-pique-nique-d%C3%A9tail.jpg");
                 //background-size: 60%;
                 //border-top: solid 2px rgb(73, 73, 218);
@@ -73,14 +74,12 @@ main {
                 //border-bottom: solid 2px red;
                // border-right: solid 2px red; 
                 &:hover {
-                    opacity: 0.6;
                     font-size: 30px;
                     color: white;
-                    background-color: rgb(104, 102, 92);
+                    background-color: rgb(230, 126, 29);
                     background-size: 300%;
                     
                     box-shadow: 8px 10px 19px -7px rgba(0, 0, 0, 0.164);
-                    //background-image: linear-gradient(rgb(255, 0, 0), rgba(250, 250, 250, 0.473));
                 }
             }
         }
@@ -117,8 +116,10 @@ main {
             }
             h3 {
                 opacity: 0.9;
-                font-size: 1.1em;
-                font-family: 'Dancing Script', cursive;
+                font-weight: 300;
+                font-size: 0.7em;
+                //font-family: 'Dancing Script', cursive;
+                font-family: "Roboto";
                 color: black;
                 padding: 10px;
                 text-align: center;
@@ -170,11 +171,13 @@ main {
             }
             h3 {
                 opacity: 0.9;
-                font-size: 1.6em;
-                font-family: 'Dancing Script', cursive;
+                font-weight: 300;
+                font-size: 1em;
+                //font-family: 'Dancing Script', cursive;
+                font-family: "roboto";
                 color: black;
                 padding: 15px;
-                text-align: center;
+                text-align: start;
                 text-shadow: 10px 0px 12px rgb(248, 244, 243);
             }
         }
