@@ -198,12 +198,12 @@ main {
     main #call-to-action figure > div {
       display: flex;
       z-index: 3;
-      flex-direction: column;
-      justify-content: center;
+      flex-direction: row;
+      justify-content: space-around;
       position: absolute;
       top: 10px;
       height: 140px;
-      width: 200px;
+      width: 100%;
       background-color: rgba(250, 250, 246, 0);
       opacity: 1;
       border-radius: 3px;
@@ -214,8 +214,7 @@ main {
         display: flex;
         font-size: 27px;
         position: relative;
-        top: 240px;
-        left: 60px;
+        top: 215px;
         color: #e67e1d;
         border: 5px solid rgba(255, 255, 255, 0.863);
         font-weight: 700;
