@@ -92,7 +92,7 @@ h2 {
   padding-top: 15px; }
 
 h3 {
-  font-size: 0.8em;
+  font-size: 0.9em;
   font-weight: 500;
   padding-bottom: 5px; }
 
@@ -310,6 +310,7 @@ main {
       align-items: center;
       border-radius: 20px; }
   main #products {
+    position: relative;
     background-color: rgba(235, 231, 217, 0.432);
     display: flex;
     padding: 20px 20px;
@@ -326,21 +327,49 @@ main {
       main #products h2 i {
         margin-right: 25px;
         color: #dd8809;
-        font-size: 24px;
-        border: solid 3px #dd8809;
-        padding: 15px;
+        font-size: 19px;
+        border: solid 2px #dd8809;
+        padding: 6px;
         border-radius: 50%;
         background-color: whitesmoke; }
     main #products article {
       background-color: white;
-      opacity: 0.8;
       display: flex;
       flex-direction: column;
+      flex-wrap: wrap;
       box-shadow: 8px 10px 19px -7px rgba(0, 0, 0, 0.4);
       border-radius: 20px;
-      height: 180px;
+      height: auto;
       background-position: bottom;
       background-size: 50%; }
+      main #products article div {
+        display: flex;
+        justify-content: space-between;
+        align-items: center; }
+        main #products article div .btn-grad {
+          background-image: linear-gradient(to right, #70e1f5 0%, #ffd194 51%, #70e1f5 100%); }
+        main #products article div .btn-grad {
+          display: flex;
+          align-items: center;
+          margin: 10px;
+          padding: 10px 10px;
+          text-align: center;
+          text-transform: uppercase;
+          transition: 0.5s;
+          background-size: 200% auto;
+          color: white;
+          box-shadow: 0 0 20px #eee;
+          border-radius: 10px;
+          display: block;
+          min-width: 140px; }
+          main #products article div .btn-grad i {
+            margin-top: 5px;
+            margin-right: 10px; }
+        main #products article div .btn-grad:hover {
+          background-position: right center;
+          /* change the direction of the change here */
+          color: #fff;
+          text-decoration: none; }
       main #products article figure {
         flex-basis: 100%; }
       main #products article img {
@@ -352,25 +381,21 @@ main {
         object-position: bottom; }
       main #products article h3 {
         opacity: 0.9;
-        font-weight: 500;
-        font-size: 1em;
+        font-weight: 300;
+        font-size: 1.2em;
         font-family: "roboto";
         color: black;
         padding: 15px;
         text-align: start;
         text-shadow: 10px 0px 12px #f8f4f3; }
+      main #products article p {
+        font-weight: 900;
+        font-family: 'Dancing Script', cursive;
+        padding: 0 0 10px 20px;
+        position: relative;
+        bottom: 12px; }
     main #products h2 {
       flex-basis: 100%; }
-    main #products div {
-      display: flex;
-      font-size: 0.8em;
-      border: solid 2px yellowgreen;
-      border-radius: 50%;
-      width: 50px;
-      height: 50px;
-      justify-content: center;
-      align-items: center;
-      text-align: center; }
   main #producteurs {
     padding: 20px;
     display: flex;

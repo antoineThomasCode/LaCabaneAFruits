@@ -163,6 +163,7 @@ main {
         }
     }
     #products {
+        position: relative;
         background-color: rgba(235, 231, 217, 0.432);
         display: flex;
         padding: 20px 20px;
@@ -179,24 +180,55 @@ main {
             i {
                 margin-right: 25px;
                 color: rgb(221, 136, 9);
-                font-size: 24px;
+                font-size: 19px;
                 
-                border: solid 3px rgb(221, 136, 9);
-                padding: 15px;
+                border: solid 2px rgb(221, 136, 9);
+                padding: 6px;
                 border-radius: 50%;
                 background-color: whitesmoke;
             }
         }
         article {
             background-color: rgb(255, 255, 255);
-            opacity: 0.8;
             display: flex;
             flex-direction: column;
+            flex-wrap: wrap;
             box-shadow: 8px 10px 19px -7px rgba(0,0,0,0.4);
             border-radius: 20px;
-            height: 180px;
+            height: auto;
             background-position: bottom;
             background-size: 50%;
+            div {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                .btn-grad {background-image: linear-gradient(to right, #70e1f5 0%, #ffd194  51%, #70e1f5  100%)}
+                .btn-grad {
+                    display: flex;
+                    align-items: center;
+                   margin: 10px;
+                   padding: 10px 10px;
+                   text-align: center;
+                   text-transform: uppercase;
+                   transition: 0.5s;
+                   background-size: 200% auto;
+                   color: white;            
+                   box-shadow: 0 0 20px #eee;
+                   border-radius: 10px;
+                   display: block;
+                   min-width: 140px;
+                   i {
+                       margin-top: 5px;
+                       margin-right: 10px;
+                   }
+                 }
+       
+                 .btn-grad:hover {
+                   background-position: right center; /* change the direction of the change here */
+                   color: #fff;
+                   text-decoration: none;
+                 }
+            }
             figure {
                 flex-basis: 100%;
             }
@@ -210,8 +242,8 @@ main {
             }
             h3 {
                 opacity: 0.9;
-                font-weight: 500;
-                font-size: 1em;
+                font-weight: 300; 
+                font-size: 1.2em;
                 //font-family: 'Dancing Script', cursive;
                 font-family: "roboto";
                 color: black;
@@ -219,21 +251,18 @@ main {
                 text-align: start;
                 text-shadow: 10px 0px 12px rgb(248, 244, 243);
             }
+            p{
+                font-weight: 900;
+                font-family: 'Dancing Script', cursive;
+                padding: 0 0 10px 20px;
+                position: relative;
+                bottom: 12px;
+            }
         }
         h2 {
             flex-basis: 100%;
         }
-        div {
-            display: flex;
-            font-size: 0.8em;
-            border: solid 2px yellowgreen;
-            border-radius: 50%;
-            width: 50px;
-            height: 50px;
-            justify-content: center;
-            align-items: center;
-            text-align: center;
-        }
+        
         
     }
     #producteurs {
