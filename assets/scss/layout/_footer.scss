@@ -1,5 +1,8 @@
 footer {
+    display: flex;
     background-color: rgb(48, 48, 48);
+    flex-basis: 100%;
+    flex-direction: column;
     ul  li {
         padding: 10px 0;
         a > i {

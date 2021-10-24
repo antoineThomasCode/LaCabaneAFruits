@@ -4,9 +4,15 @@
 .f-wrap {
     flex-wrap: wrap;
 }
+.d-none {
+    display: none;
+}
 .obj-top {
     object-position: top !important;
 }
 .obj-center {
     object-position: center !important; 
+}
+.active {
+    display: flex;
 }

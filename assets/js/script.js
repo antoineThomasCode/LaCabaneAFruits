@@ -1,9 +1,10 @@
-const buttonOne = document.getElementById("boutique");
 
-function displayFalg(){
-       console.log("Button is running");
-       console.log("Button is running"); console.log("Button is running"); console.log("Button is running"); console.log("Button is running"); console.log("Button is running"); console.log("Button is running"); console.log("Button is running"); console.log("Button is running"); console.log("Button is running");
-    
-};
 
-buttonOne.onclick = doSomething();
+
+var btnEngagement = document.getElementById('btn_engagement');
+
+btnEngagement.addEventListener('click', function(e){
+       var containerEngagement = document.getElementById('engagement_container');
+              containerEngagement.style.display = "flex";
+});
+console.log(btnEngagement);
