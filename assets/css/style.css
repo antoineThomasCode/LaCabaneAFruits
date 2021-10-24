@@ -59,6 +59,9 @@ table {
 .obj-top {
   object-position: top !important; }
 
+.obj-center {
+  object-position: center !important; }
+
 /* colors */
 body {
   font-family: 'Roboto', sans-serif;
@@ -375,7 +378,7 @@ main {
         flex-basis: 100%; }
       main #products article img {
         width: 100%;
-        height: 130px;
+        height: 125px;
         border-top-right-radius: 20px;
         border-top-left-radius: 20px;
         object-fit: cover;
