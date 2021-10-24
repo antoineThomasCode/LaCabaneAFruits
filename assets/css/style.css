@@ -361,7 +361,8 @@ main {
           box-shadow: 0 0 20px #eee;
           border-radius: 10px;
           display: block;
-          min-width: 140px; }
+          min-width: 140px;
+          box-shadow: 8px 10px 19px -7px rgba(0, 0, 0, 0.301); }
           main #products article div .btn-grad i {
             margin-top: 5px;
             margin-right: 10px; }
