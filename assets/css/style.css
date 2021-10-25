@@ -198,15 +198,49 @@ header {
       padding: 15px;
       text-align: center;
       text-shadow: 10px 0px 12px #f8f4f3; }
-  header #icons-bars-menu {
+  header #icons_bars_menu {
     position: absolute;
     top: 80px;
     left: 40px;
     font-size: 30px;
     opacity: 0.7;
     text-shadow: 1px 0px 8px rgba(104, 100, 100, 0.514); }
-  header #menu-toggle {
-    display: none; }
+  header #icon_cross_menu {
+    position: absolute;
+    top: 80px;
+    left: 80px;
+    font-size: 40px; }
+  header #menu_toggle {
+    display: none;
+    z-index: 999;
+    position: fixed;
+    flex-direction: column;
+    top: 0;
+    right: 0;
+    height: 800px;
+    width: 100%;
+    background-color: whitesmoke;
+    align-items: flex-start;
+    justify-content: flex-start;
+    font-family: 'Roboto', serif;
+    padding: 20px 0 20px 30px; }
+    header #menu_toggle .menu-subtitles {
+      font-family: 'Dancing Script', cursive;
+      font-size: 0.9em; }
+    header #menu_toggle > a {
+      margin-left: 150px; }
+    header #menu_toggle ul {
+      padding-left: 50px;
+      display: flex;
+      flex-direction: column;
+      row-gap: 40px; }
+      header #menu_toggle ul li {
+        font-size: 1.8em;
+        font-weight: 200;
+        line-height: 18px; }
+        header #menu_toggle ul li i {
+          margin-right: 5px;
+          margin-bottom: 3px; }
 
 main {
   padding-top: 105px;
@@ -306,7 +340,7 @@ main {
       background-color: #fff;
       display: flex;
       animation-name: slide-top;
-      animation-duration: 1s;
+      animation-duration: 0.7s;
       flex-direction: column;
       box-shadow: 8px 10px 19px -7px rgba(0, 0, 0, 0.301);
       border-radius: 20px;

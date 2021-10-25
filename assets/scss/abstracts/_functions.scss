@@ -1,7 +1,7 @@
 // lazy display engagements items
 @mixin lazy-menu-items ($delay, $limit) {
     @for $i from 1 through $limit {
-        #engagement_container article:nth-of-type(#{$i}) {
+        #engagement_container a:nth-of-type(#{$i}) {
           animation: slide-top 1s ease-out (0.2s * $i + $delay) both;
         }
       }

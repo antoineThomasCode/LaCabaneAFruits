@@ -42,7 +42,7 @@ header {
             text-shadow: 10px 0px 12px rgb(248, 244, 243);
         }
     }
-    #icons-bars-menu {
+    #icons_bars_menu {
         position: absolute;
         top: 80px;
         left: 40px; 
@@ -50,8 +50,49 @@ header {
         opacity: 0.7;
         text-shadow: 1px 0px 8px rgba(104, 100, 100, 0.514);
     }
-    #menu-toggle {
+    #icon_cross_menu {
+        position: absolute;
+        top: 80px;
+        left: 80px;
+        font-size: 40px;
+    }
+    #menu_toggle {
+       
         display: none;
+        z-index: 999;
+        position: fixed;
+        flex-direction: column;
+        top: 0;
+        right: 0;
+        height: 800px;
+        width: 100%;
+        background-color: whitesmoke;
+        align-items: flex-start;
+        justify-content: flex-start;
+        font-family: 'Roboto', serif;
+        padding: 20px 0 20px 30px;
+        .menu-subtitles {
+            
+            font-family: 'Dancing Script', cursive;
+            font-size: 0.9em;
+        }
+        > a {
+            margin-left: 150px;
+        }
+        ul {
+            padding-left: 50px;
+            display: flex;
+            flex-direction: column;
+            row-gap: 40px;
+            li {
+                font-size: 1.8em;
+                font-weight: 200;
+                line-height: 18px;
+                i {
+                    margin-right: 5px;
+                    margin-bottom: 3px;
+                }            }
+        }
     }
 }
 
