@@ -128,6 +128,14 @@ a {
     cursor: pointer;
     box-shadow: 8px 10px 19px -7px rgba(90, 87, 87, 0.651); }
 
+@keyframes slide-top {
+  0% {
+    transform: translateY(50px);
+    opacity: 0; }
+  100% {
+    transform: translateY(0);
+    opacity: 1; } }
+
 footer {
   display: flex;
   background-color: #303030;
@@ -297,6 +305,8 @@ main {
       position: relative;
       background-color: #fff;
       display: flex;
+      animation-name: slide-top;
+      animation-duration: 1s;
       flex-direction: column;
       box-shadow: 8px 10px 19px -7px rgba(0, 0, 0, 0.301);
       border-radius: 20px;

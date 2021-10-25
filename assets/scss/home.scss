@@ -111,6 +111,9 @@ main {
             position: relative;
             background-color: #fff;
             display: flex;
+            animation-name: slide-top;
+            animation-duration: 1s;
+            
             //display: flex;
             flex-direction: column;
             box-shadow: 8px 10px 19px -7px rgba(0, 0, 0, 0.301);
@@ -188,6 +191,7 @@ main {
         article {
             background-color: rgb(255, 255, 255);
             display: flex;
+           
             flex-direction: column;
             flex-wrap: wrap;
             box-shadow: 8px 10px 19px -7px rgba(0,0,0,0.4);
