@@ -9,8 +9,6 @@ btnEngagement.addEventListener('click', function(e){
               btnEngagement.style.display = "none";
 });
 
-
-
 // menu toggle for mobiles
 
 var btnOpenMenu = document.getElementById('icons_bars_menu');
