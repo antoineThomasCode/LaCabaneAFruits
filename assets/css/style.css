@@ -113,7 +113,7 @@ a {
   color: black; }
 
 #btn_engagement {
-  margin: -30px 50px 0 65px;
+  margin: -30px 50px 0 85px;
   flex-basis: 50%;
   border: none;
   text-align: center;
@@ -223,7 +223,7 @@ header {
     align-items: flex-start;
     justify-content: flex-start;
     font-family: 'Roboto', serif;
-    padding: 20px 0 20px 30px; }
+    padding: 0 0 20px 30px; }
     header #menu_toggle .menu-subtitles {
       font-family: 'Dancing Script', cursive;
       font-size: 0.9em; }
@@ -330,6 +330,7 @@ main {
       justify-content: flex-start;
       align-items: center;
       margin-top: -30px;
+      margin-left: 30px;
       padding-bottom: 40px; }
       main #engagements h2 i {
         margin-right: 25px;
@@ -340,7 +341,7 @@ main {
       background-color: #fff;
       display: flex;
       animation-name: slide-top;
-      animation-duration: 0.7s;
+      animation-duration: 1s;
       flex-direction: column;
       box-shadow: 8px 10px 19px -7px rgba(0, 0, 0, 0.301);
       border-radius: 20px;

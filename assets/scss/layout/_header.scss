@@ -70,13 +70,13 @@ header {
         align-items: flex-start;
         justify-content: flex-start;
         font-family: 'Roboto', serif;
-        padding: 20px 0 20px 30px;
+        padding: 0 0 20px 30px;
         .menu-subtitles {
             
             font-family: 'Dancing Script', cursive;
             font-size: 0.9em;
         }
-        > a {
+        > a { 
             margin-left: 150px;
         }
         ul {
@@ -91,7 +91,8 @@ header {
                 i {
                     margin-right: 5px;
                     margin-bottom: 3px;
-                }            }
+                }           
+             }
         }
     }
 }
