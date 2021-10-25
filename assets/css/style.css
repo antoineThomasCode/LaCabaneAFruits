@@ -543,7 +543,12 @@ main {
     height: 200px; }
   header #icons_bars_menu {
     left: 220px;
-    top: 120px; }
+    top: 120px;
+    cursor: pointer; }
+  main #engagements article h3 {
+    font-size: 0.9em; }
+  main #engagements article img {
+    height: 100px; }
   main #products {
     padding-bottom: 40px; }
     main #products h2 {

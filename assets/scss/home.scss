@@ -365,7 +365,16 @@ main {
     header #icons_bars_menu {
         left: 220px;
         top: 120px;
+        cursor: pointer; 
         
+    }
+    main #engagements {
+         article h3 {
+            font-size: 0.9em;
+        }
+        article img {
+            height: 100px;
+        }
     }
     main #products {
         padding-bottom: 40px;
