@@ -268,16 +268,21 @@ main {
         
     }
     #producteurs {
-        padding: 20px;
+        padding: 40px 20px 40px 20px;
         display: flex;
         flex-wrap: wrap;
         justify-content: space-around;
-
+        row-gap: 30px;
+        background-image: url("https://static-cse.canva.com/blob/191851/Carte_du_monde_france_europe-_vierge-image_01.png");
+        background-size: 160%;
+        background-position-y: center;
+        background-position-x: center;
+        background-repeat: no-repeat;
         h2 {
             display: flex;
             justify-content: flex-start;
             align-items: center;
-            padding-bottom: 100px;
+            padding-bottom: 20px;
             i {
                 margin-right: 25px;
                 color: red;
@@ -289,13 +294,24 @@ main {
             display: flex;
             column-gap: 20px;
             font-size: 0.5em;
-            border: solid 2px yellowgreen;
+            border: solid 2px rgb(238, 187, 18);
             border-radius: 50%;
-            width: 150px;
-            height: 150px;
+            width: 120px;
+            height: 120px;
             justify-content: center;
             align-items: center;
             text-align: center ;
+            box-shadow: 8px 10px 19px -7px rgba(0, 0, 0, 0.301);
+            figure {
+                width: 120px;
+                height: 120px;
+                img {
+                    object-fit: cover;
+                    width:120px;
+                    height: 120px;
+                    border-radius: 50%;
+                }
+            }
         }
     }
 }
