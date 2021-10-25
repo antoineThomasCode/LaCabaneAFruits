@@ -115,13 +115,13 @@ a {
 #btn_engagement {
   margin: -30px 50px 0 65px;
   flex-basis: 50%;
-  border: solid 2px rgba(228, 169, 82, 0.555);
+  border: none;
   text-align: center;
   color: #f7f7f7;
   padding: 10px 20px;
   border-radius: 20px;
   font-weight: 900;
-  background-color: orange;
+  background-color: rgba(238, 159, 13, 0.911);
   box-shadow: 8px 10px 19px -7px rgba(0, 0, 0, 0.301);
   transition: all 0.3s; }
   #btn_engagement:hover {
@@ -373,7 +373,7 @@ main {
         justify-content: space-between;
         align-items: center; }
         main #products article div .btn-grad {
-          background-image: linear-gradient(to right, #70e1f5 0%, #ffd194 51%, #70e1f5 100%); }
+          background-image: linear-gradient(to right, #e2be6fa2 0%, #ffd194 51%, #df901a 100%); }
         main #products article div .btn-grad {
           display: flex;
           align-items: center;

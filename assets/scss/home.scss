@@ -198,8 +198,8 @@ main {
             div {
                 display: flex;
                 justify-content: space-between;
-                align-items: center;
-                .btn-grad {background-image: linear-gradient(to right, #70e1f5 0%, #ffd194  51%, #70e1f5  100%)}
+                align-items: center; 
+                .btn-grad {background-image: linear-gradient(to right, #e2be6fa2 0%, #ffd194  51%, #df901a  100%)}
                 .btn-grad {
                     display: flex;
                     align-items: center;
