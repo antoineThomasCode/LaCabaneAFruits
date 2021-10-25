@@ -22,11 +22,3 @@ footer {
         padding-bottom: 20px;
     }
 }
-@media screen and (min-width: 992px) {
-    footer {
-        > div {
-            max-width: 60%;
-            margin: 0 auto;
-            }
-    }
-}
