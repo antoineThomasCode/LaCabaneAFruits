@@ -257,7 +257,7 @@ main {
       padding: 0;
       justify-content: center;
       align-items: center; }
-    main #call-to-action figure > iframe {
+    main #call-to-action figure > img {
       opacity: 1;
       margin-top: 70px;
       width: 100%;
@@ -477,8 +477,8 @@ main {
     main #products h2 {
       flex-basis: 100%; }
   main #producteurs {
+    display: none;
     padding: 40px 20px 40px 20px;
-    display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     row-gap: 30px;
@@ -551,8 +551,8 @@ main {
   main {
     padding-top: 300px; }
     main #call-to-action figure div a {
-      top: 465px; }
-    main #call-to-action figure > iframe {
+      top: 265px; }
+    main #call-to-action figure > img {
       height: 900px;
       margin-top: -450px; }
   main #engagements article h3 {
@@ -582,5 +582,5 @@ main {
     padding: 40px; } }
 
 @media screen and (min-width: 1300px) {
-  main #call-to-action figure > iframe {
-    height: 1100px; } }
+  main #call-to-action figure > img {
+    height: 900px; } }

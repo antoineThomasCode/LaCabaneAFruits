@@ -21,7 +21,7 @@ main {
             justify-content: center;
             align-items: center;
         }
-        figure > iframe {  
+        figure > img{  
             opacity: 1;
             margin-top: 70px; 
             width: 100%; 
@@ -278,8 +278,8 @@ main {
         
     }
     #producteurs {
+        display: none;
         padding: 40px 20px 40px 20px;
-        display: flex;
         flex-wrap: wrap;
         justify-content: space-around;
         row-gap: 30px;
@@ -371,9 +371,9 @@ main {
     main {
         padding-top: 300px;
         #call-to-action figure div a {
-            top: 465px;
+            top: 265px;
         }
-        #call-to-action  figure > iframe {
+        #call-to-action  figure > img {
             height: 900px;
             margin-top: -450px;
         }
@@ -418,7 +418,7 @@ main {
 }
 @media screen and (min-width: 1300px) {
 
-    main #call-to-action figure > iframe {
-        height: 1100px;
+    main #call-to-action figure > img {
+        height: 900px;
     }
 }
